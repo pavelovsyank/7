@@ -7,7 +7,7 @@ services:
     build:
       context: ./
     ports:
-      - 0.0.0.0:2023 :${PORT}
+      - 0.0.0.0:8888 :${PORT}
     logging:
       driver: "json-file"
       options:
